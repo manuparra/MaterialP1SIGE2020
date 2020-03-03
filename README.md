@@ -29,9 +29,9 @@ La descripción de las variables de este conjunto de datos se encuentra en la se
 
 El problema consiste en predecir si una transacción online es fraudulenta o no (_isFraud_) a partir del resto de variables. Los datos están separados en dos ficheros:
 
-_transaction_, con los datos de la propia transacción (393 variables + 1 identificador de transacción)
+	- _transaction_, con los datos de la propia transacción (393 variables + 1 identificador de transacción)
 
-_identity_, con los datos de identidad de la persona que realiza la transacción (40 variables + 1 identificador de transacción asociada)
+	- _identity_, con los datos de identidad de la persona que realiza la transacción (40 variables + 1 identificador de transacción asociada)
 
 Ambos ficheros pueden combinarse a través del atributo _TransactionID_. No todas las transacciones tienen asociada información de identidad. A su vez, los ficheros aparecen ya separados en conjuntos de entrenamiento y validación.
 
